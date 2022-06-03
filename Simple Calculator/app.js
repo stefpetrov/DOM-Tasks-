@@ -23,7 +23,7 @@ function calculator() {
     subtract,
   };
 
-  return obj;
+  return obj
 }
 
 const calculate = calculator();
