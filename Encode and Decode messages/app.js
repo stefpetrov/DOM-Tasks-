@@ -43,7 +43,7 @@ function encodeAndDecodeMessages() {
             asciiArrAsLetters.push(el)
         })
 
-        textElementDecoded.value = asciiArrAsLetters.join("")
+        textElementDecoded.value = asciiArrAsLetters.join("");
 
     })
 
