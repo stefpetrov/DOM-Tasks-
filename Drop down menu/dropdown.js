@@ -12,7 +12,7 @@ function addItem() {
 
     let parentElement = document.getElementById('menu')
 
-    parentElement.appendChild(optionElement)
+    parentElement.appendChild(optionElement);
 
     inputElement.value = ""
     valueElement.value = ""
