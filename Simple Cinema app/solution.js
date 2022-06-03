@@ -6,7 +6,7 @@ function solve() {
     function onScreen(e){
         e.preventDefault()
 
-        let [nameEl,hallEl,priceEl] = ((document.querySelectorAll('div[id="container"] input')))
+        let [nameEl,hallEl,priceEl] = ((document.querySelectorAll('div[id="container"] input')));
 
         if(nameEl.value !== "" && hallEl.value !== "" && priceEl.value !== "" && !isNaN(Number(priceEl.value))){
 
