@@ -6,10 +6,10 @@ function solve() {
 
    function onClick() {
 
-      let elements = document.querySelectorAll('tbody tr')
-      let search = document.getElementById('searchField')
+      let elements = document.querySelectorAll('tbody tr');
+      let search = document.getElementById('searchField');
       
-      let arrOfElements = Array.from(elements)
+      let arrOfElements = Array.from(elements);
 
       for (const row of arrOfElements) {
          row.classList.remove('select')
