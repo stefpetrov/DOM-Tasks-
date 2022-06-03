@@ -25,7 +25,7 @@ function solve() {
       newPElement1.textContent = obj.name;
       newImgElement.src = obj.img;
       newPElement2.textContent = obj.price;
-      newPElement3.textContent = obj.decFactor;
+      newPElement3.textContent = obj.decFactor
 
       newInputElement.type = "checkbox";
 
