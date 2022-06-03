@@ -12,7 +12,7 @@ function attachEventsListeners() {
   secondsButtonElement.addEventListener("click", calc);
   minutesButtonElement.addEventListener("click", calc);
   hoursButtonElement.addEventListener("click", calc);
-  daysButtonElement.addEventListener("click", calc);
+  daysButtonElement.addEventListener("click", calc)
 
   function calc(e) {
    if(e.target.id == "daysBtn"){
